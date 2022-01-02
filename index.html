@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <div class="content">
+        <nav>
+            <img src="images/logo1.png" class="logo">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">SKILLS</a></li>
+                <li><a href="#contact">Contact me</a></li>
+            </ul>
+        </nav>
+        <div class="bio">
+            <h1>I,M Alexandra <span>Chalin</span></h1>
+            <p>This is my official Portfolio website to showcase my all works related to <br> web development and ui design. </p>
+            <a href="#contact">Contact me</a>
+        </div>
+        <div class="images">
+            <img src="images/shape.png" class="shape">
+            <img src="images/girl.png" class="girl">
+        </div>
+
+        <!-- Social links -->
+        <!-- <div class="social">
+            <a href="#"><i class="fab fa-dribbble"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-behance"></i></a>
+        </div> -->
+
+    </div>
+    <section class="container" id="contact">
+        <form action="#" method="dialog" class="contact">
+
+            <label for="fname" class="contact_title">Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+            <label for="lname" class="contact_title">Email-ID</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+            <label for="subject" class="contact_title">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+            <input type="submit" value="Submit" onclick="alert('Thankyou for Contacting')">
+
+        </form>
+    </section>
+    <footer class="footer">
+        <div class="footer1">
+            Made with 💖 By <a href="#">Finte Loop</a> | <span>&copy;</span> 2021 All rights reserved.
+        </div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.content {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.829);
+}
+
+nav {
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 100px;
+    cursor: pointer;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: orange;
+}
+
+.bio {
+    margin-left: 8%;
+    margin-top: 15%;
+}
+
+.bio h1 {
+    font-size: 50px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+span {
+    color: orange;
+}
+
+.bio p {
+    color: #fff;
+    line-height: 22px;
+}
+
+.bio a {
+    background: #fff;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #000;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+}
+
+.bio a:hover {
+    color: coral;
+    background-color: black;
+}
+
+.images {
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+
+.images img {
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+}
+
+.images:hover .shape {
+    bottom: 40px;
+}
+
+.images:hover .girl {
+    left: 45%;
+}
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid orange;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    background-color: rgba(255, 255, 255, 0.89);
+}
+
+input[type=submit] {
+    background-color: orange;
+    color: rgb(0, 0, 0);
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contact_title {
+    color: #fff;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+input[type=submit]:hover {
+    background-color: rgba(255, 166, 0, 0.911);
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.829);
+    padding: 110px;
+}
+
+.contact {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-top: 20px;
+}
+
+.footer {
+    padding: 25px;
+    background-color: #000;
+    text-align: center;
+}
+
+.footer1 {
+    color: white;
+    font-size: 20px;
+    justify-content: center;
+}
+
+.footer1 a:hover {
+    color: chartreuse;
+}
+
+.footer1 a {
+    color: orange;
+}
